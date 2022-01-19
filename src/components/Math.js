@@ -2,7 +2,7 @@ import mathsteps from "mathsteps";
 
 export default function Math({ text }) {
   function cal() {
-    let res = 0;
+    let res;
     let arr = [];
 
     if (text.includes("x")) {
@@ -14,8 +14,11 @@ export default function Math({ text }) {
 
       return arr.map((step, i) => {
         return (
-          <h1 className="tracking-wide">
-            Step {i + 1}: {step}
+          <h1 className="flex tracking-wide my-[1rem] font-light items-center">
+            <p className="italic border-white border-[2px] rounded-lg mr-[1rem] p-[4px]">
+              Step {i + 1}
+            </p>{" "}
+            {step}
           </h1>
         );
       });
