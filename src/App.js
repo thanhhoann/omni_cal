@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CurrencyConverter from "./components/CurrencyConverter";
 import Help from "./components/Help";
 import Math from "./components/Math";
+import Roombuds from "./components/Roombuds";
 import Input from "./components/UI/Input";
 import Layout from "./components/UI/Layout";
 
@@ -23,6 +24,7 @@ export default function App() {
           <Input handleChange={(e) => setText(e)} />
           <Help text={text} />
           <Math text={text} />
+          <Roombuds text={text} />
         </div>
       </Layout>
     </>
