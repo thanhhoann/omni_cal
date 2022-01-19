@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         rel="stylesheet"
       />
 
-      <div className="w-[100vw] h-[100vh] bg-[#000000] pt-[1rem] font-['Fira_Sans']">
+      <div className="w-screen h-screen bg-[#000000] pt-[1rem] font-['Fira_Sans']">
         {children}
       </div>
     </>

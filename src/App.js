@@ -19,11 +19,10 @@ export default function App() {
   return (
     <>
       <Layout>
-        <div className="flex flex-col w-screen space-around ml-[1rem] ">
+        <div className="flex flex-col w-screen space-around px-[1rem] py-[1rem]">
           <Input handleChange={(e) => setText(e)} />
           <Help text={text} />
           <Math text={text} />
-          <CurrencyConverter />
         </div>
       </Layout>
     </>

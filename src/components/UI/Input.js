@@ -10,12 +10,11 @@ export default function Input({ handleChange }) {
     setText(e.target.value);
   };
   return (
-    <div className="flex ">
+    <div className="flex items-center">
       <ChevronRight />
       <input
         type="text"
-        placeholder='Try tying "2x+1=5"'
-        class="block bg-[#000000] w-full px-3 placeholder-white placeholder-opacity-[60%] text-white text-[2rem] tracking-[0.3rem] focus:outline-none"
+        class="block bg-[#000000] w-full px-3 placeholder-white placeholder-opacity-[60%] text-white text-[1.2rem] sm:text-[2rem] tracking-[0.3rem] focus:outline-none"
         type="text"
         onChange={changeHandler}
       />

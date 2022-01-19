@@ -33,7 +33,7 @@ export default function Math({ text }) {
 
   return (
     <>
-      <div className="text-white text-[2rem] opacity-[50%] ml-[1rem] mt-[0.5rem]">
+      <div className="text-white text-[1rem] sm:text-[2rem] opacity-[50%] ml-[1rem] mt-[0.5rem]">
         {cal()}
       </div>
     </>
