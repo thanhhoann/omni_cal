@@ -18,7 +18,7 @@ export default function Roombuds({ text }) {
 
   return (
     <>
-      <div className="text-white text-[1rem] sm:text-[2rem] opacity-[50%] ml-[1rem] mt-[0.5rem]">
+      <div className="text-white text-[1rem] sm:text-[2rem] opacity-[50%] ml-[1rem] mt-[0.5rem] tracking-[0.1rem]">
         {recommendations}
         {text.includes("roombuds papers") && <Papers />}
         {text.includes("roombuds contacts") && <Contacts />}
