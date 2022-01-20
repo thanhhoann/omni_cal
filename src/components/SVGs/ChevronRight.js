@@ -2,7 +2,7 @@ export default function ChevronRight() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-[3rem] w-[3rem]"
+      className="h-[2rem] w-[2rem] sm:h-[3rem] sm:w-[3rem]"
       fill="none"
       viewBox="0 0 24 24"
       stroke="white"
